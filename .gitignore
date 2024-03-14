@@ -1,1 +1,4 @@
 .DS_Store
+feature_definitions.csv
+test_base.csv
+train_base.csv
