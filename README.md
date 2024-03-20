@@ -17,10 +17,17 @@ annuity_780A: Monthly annuity amount. (Cash flow)
 cntincpaycont9m_3716944L: Number of incoming payments in the past 9 months. (Cash flow),
 cntpmts24_3658933L: Number of months with any incoming payment in last 24 months. (Stability of employment)
 commnoinclast6m_3546845L: Number of communications indicating low income in the last six months. (Income earned or Cash flow)
+empl_employedtotal_800L: Employment length of a person. (Stability of employment)
+empl_industry_691L: Employment Industry of the person. (Stability of employment)
+equalityempfrom_62L: Flag indicating a sudden change in the client's length of employment. (Stability of employment)
+maininc_215A: Client's primary income amount. (Income earned)
 
 2) Capital
 
 This consists of savings or investment account balances. 
+
+From the feature_definitions: 
+downpmt_116A: Amount of downpayment. (Investment account balances)
 
 3) Conditions
 
@@ -32,6 +39,7 @@ This consists of the borrower's reputation. This may include a review of applica
 
 From the feature_definitions: avgdbddpdlast24m_3658932P: Average days past or before due of payment during the last 24 months. (Credit history)
 avgdbddpdlast3m_4187120P: Average days past or before due of payment during the last 3 months. (Credit history)
+education_927M: Education level of the person. (Measure of character)
 
 5) Collateral
 
@@ -43,6 +51,10 @@ collater_valueofguarantee_1124L: Value of collateral for active contract. (Colla
 collater_valueofguarantee_876L: Value of collateral for closed contract. (Collateral),
 collaterals_typeofguarante_359M: Type of collateral that was used as a guarantee for a closed contract. (Collateral),
 collaterals_typeofguarante_669M: Collateral type for the active contract. (Collateral),
+
+6) Misc
+
+From the feature_definitions:
 
 Lets exclude applicant's previous application history. We will exclude those columns from our data.
 
