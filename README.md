@@ -8,4 +8,3 @@ Before starting this project, we had to conduct research on credit risk, we need
 ## Project Overview
 
 ## Challenges
-
