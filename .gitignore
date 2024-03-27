@@ -2,3 +2,17 @@
 feature_definitions.csv
 test_base.csv
 train_base.csv
+train_static_0_0.csv
+train_static_0_1.csv
+train_person_1.csv
+train_credit_bureau_a_2_0.csv
+train_credit_bureau_a_2_1.csv
+train_credit_bureau_a_2_2.csv
+train_credit_bureau_a_2_3.csv
+train_credit_bureau_a_2_4.csv
+train_credit_bureau_a_2_5.csv
+train_credit_bureau_a_2_6.csv
+train_credit_bureau_a_2_7.csv
+train_credit_bureau_a_2_8.csv
+train_credit_bureau_a_2_9.csv
+train_credit_bureau_a_2_10.csv
