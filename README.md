@@ -5,7 +5,7 @@ This project is for the Kaggle competition: Home Credit - Credit Risk Model Stab
 
 In this Home Credit - Credit Risk Model Stability project we are tasked with analyzing a person's ability to repay their loans with little to no credit history. This way people who have been traditionally denied from a loan based on their credit history has a chance to still take out a loan. 
 
-In our group project, we first approached the project by researching about loans, different ways that people are evaluated 
+In our group project, we first approached the project by researching about loans and the different ways that people are evaluated when applying for a loan. With that knowledge we used it to help us select the columns from the large dataset that were given. We narrowed it down to 24 columns in total that we will use to train our data.
 
 ## Research
 
