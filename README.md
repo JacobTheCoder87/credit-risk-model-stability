@@ -1,11 +1,17 @@
 # credit-risk-model-stability
 This project is for the Kaggle competition: Home Credit - Credit Risk Model Stability. This is a group project between Carlos Martinez Abrego, Jacob Lam and Ramon Mora
 
+## Project Overview
+
+In this Home Credit - Credit Risk Model Stability project we are tasked with analyzing a person's ability to repay their loans with little to no credit history. This way people who have been traditionally denied from a loan based on their credit history has a chance to still take out a loan. 
+
+In our group project, we first approached the project by researching about loans and the different ways that people are evaluated when applying for a loan. With that knowledge we used it to help us select the columns from the large dataset that were given. We narrowed it down to 24 columns in total that we will use to train our data.
+
 ## Research
 
 Before starting this project, we had to conduct research on credit risk, we need to figure out what are some important metrics that is used when considering whether someone would likely to default.
 
-From initial research, I discovered that the 5C's of Credit is very important in predicting the probability of whether or not a borrower would default on his debt. The 5C's are listed below.
+From initial research, I discovered that the 5C's of Credit is very important in predicting the probability of whether or not a borrower would default on his debt. The 5C's are listed below with the related columns from the datasets provided by Kaggle below.
 
 1) Capacity
 
@@ -62,7 +68,19 @@ Thanks to Investopedia for this source. https://www.investopedia.com/ask/answers
 
 Note to self to join data together review the TKH slides on joining tables with Pandas for Phase 2: "2_26 Data Engineering Pandas I"
 
-## Project Overview
-
 ## Challenges
 
+Navigating through various datasets presented several challenges, including:
+
+- Understanding Column Significance:
+    - Initially, understanding the significance of each column required background research into financial terminology. To streamline this process, we evaluated the columns with the 5C’s of credit. This framework helped us prioritize which columns to select, ensuring they were relevant to our model.
+
+- Data Integration:
+    - After identifying the most important columns, merging all the data together posed a new challenge. Merging columns from different datasets into a main file presented complexities such as handling missing data, identifying and eliminating irrelevant columns, and reconciling datasets with overlapping information.
+
+- Identification of Target Join Columns:
+    - Case ID: Serving as the target column for joining datasets together.
+    - Target Column: Crucial for model building.
+
+- Handling Large Datasets:
+    - Working with large datasets had significant strain on our local resources. Insufficient RAM capacity impeded our ability to execute code seamlessly. To counteract this limitation, we adopted a strategic approach of pruning unnecessary columns, optimizing storage while retaining essential data integrity.
