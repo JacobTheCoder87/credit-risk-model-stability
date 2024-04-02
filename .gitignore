@@ -1,6 +1,9 @@
 data/
 
-
+.DS_Store
+feature_definitions.csv
+test_base.csv
+train_base.csv
 train_person_1.csv
 train_static_0_0.csv
 train_static_0_1.csv
