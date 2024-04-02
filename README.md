@@ -1,11 +1,15 @@
 # credit-risk-model-stability
 This project is for the Kaggle competition: Home Credit - Credit Risk Model Stability. This is a group project between Carlos Martinez Abrego, Jacob Lam and Ramon Mora
 
+![Approving Credit Loan](images/Home_Credit_Background.png)
+
 ## Project Overview
 
-In this Home Credit - Credit Risk Model Stability project we are tasked with analyzing a person's ability to repay their loans with little to no credit history. This way people who have been traditionally denied from a loan based on their credit history has a chance to still take out a loan. 
+In this Home Credit - Credit Risk Model Stability project we are tasked with analyzing a person's ability to repay their loans with little to no credit history. This way people who have been traditionally denied from a loan based on their credit history have access to being approved for a loan. 
 
-In our group project, we first approached the project by researching about loans and the different ways that people are evaluated when applying for a loan. With that knowledge we used it to help us select the columns from the large dataset that were given. We narrowed it down to 24 columns in total that we will use to train our data.
+In our group project, we first approached the project by researching about loans and the different ways that people are evaluated when applying for a loan. We specifically used the 5C's of Credit as a framework for selecting each column from our dataset. The 5C's of Credit stands for Capacity, Conditions, Character and Collateral. With that knowledge we used it to help us select the columns from the large dataset that were given. We narrowed it down to 24 columns in total that we will use to train our data. Next we split up the work between the three of us. Each of us were responsible for locating 8 columns from the dataset and also merging them together into one dataset. Once each of us have our own merged dataset, we merged all three dataset into one dataset. We actually faced some challenges during this data merging process. We discovered some of our columns especially from our collateral columns there were many values that were either error or masked where it would be very difficult to extract any meaningful data from them. In the end we decided to drop those columns.
+
+Once we merged our dataset into a main_train dataset, we decided to start with the EDA process by discovering patterns, outliers, columns to drop and created visualizations in order to better understand the relationships between our data.
 
 ## Research
 
