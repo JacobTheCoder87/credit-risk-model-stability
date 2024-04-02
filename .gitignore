@@ -1,2 +1,10 @@
 data/
 
+
+train_person_1.csv
+train_static_0_0.csv
+train_static_0_1.csv
+part2_main_train_data.csv
+part1_main_train_data.csv
+part3_final_merge.csv
+main_train.csv
