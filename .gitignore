@@ -1,3 +1,5 @@
+data/
+
 .DS_Store
 feature_definitions.csv
 test_base.csv
@@ -18,4 +20,4 @@ train_credit_bureau_a_2_9.csv
 train_credit_bureau_a_2_10.csv
 part1_main_train_data.csv
 part2_main_train_data.csv
-part3_main_data.csv
+part3_final_merge.csv
